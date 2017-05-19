@@ -2,7 +2,7 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
 # Get kernel source from Advantech GitHub
 LINUX_LINARO_QCOM_GIT = "git://github.com/ADVANTECH-Corp/linux-linaro-qcomlt.git;protocol=https"
-SRCREV = "${AUTOREV}"
+SRCREV = "b3cd8cee33b3483aa0963b8b2094ff1ea6720632"
 
 # Enable basic functions
 SRC_URI += "file://basic_functions.cfg"
